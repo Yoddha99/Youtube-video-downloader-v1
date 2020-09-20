@@ -2,7 +2,7 @@
 A simple GUI youtube video downloader desktop application made using Tkinter and pytube
 
 To use it, 
-Simply download the youtubedownloader.exe file and complete the setup. Make sure to keep all the files together after the youtubedownloader.exe setup.
+Simply download the YoutubeDownloader.exe file and complete the setup. Make sure to keep all the files together after the youtubedownloader.exe setup.
 
 OR
 
@@ -14,3 +14,5 @@ modules:
 2) tkinter  (pip install tkintertable)
 3) threaded (pip install threaded)
 
+
+A version two with choice of quality of video will soon follow.
