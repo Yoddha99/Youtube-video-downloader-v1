@@ -22,7 +22,26 @@ def startDownload():
         if(path_to_save_video) is None:
             return
         ob = YouTube(url, on_progress_callback=progress)
-        strm = ob.streams.first()   
+        strms = ob.streams.desc()
+ 
+        for s in (strms):
+            if 'mp4' in str(s) and 'True' in str(s):
+                if "720p" in str(s):
+                    strm = s 
+                    break
+                elif "480p" in str(s):
+                    strm = s 
+                    break
+                elif "360p" in str(s):
+                    strm = s 
+                    break
+                elif "240" in str(s):
+                    strm = s 
+                    break
+                elif "144p" in str(s):
+                    strm = s 
+                    break    
+
         file_size = strm.filesize
         vtitle.config(text = strm.title)
         vtitle.pack(side=TOP)
