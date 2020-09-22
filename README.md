@@ -13,6 +13,3 @@ modules:
 1) pytube3 (alternate: pytube) (pip install pytube3)
 2) tkinter  (pip install tkintertable)
 3) threaded (pip install threaded)
-
-
-A version two with choice of quality of video will soon follow.
